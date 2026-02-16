@@ -1,0 +1,5 @@
+# This directory should contain your source video files
+# 
+# Supported formats: .mp4, .mov, .avi, .mkv, etc.
+# 
+# The pipeline will normalize all videos to h264 codec automatically.

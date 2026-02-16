@@ -1,0 +1,11 @@
+# Output directory structure
+# 
+# This directory will be automatically populated during pipeline execution:
+# 
+# outputs/
+# ├── processed_videos/    # Normalized video files (h264/aac codec)
+# ├── frames/              # Extracted frame images (JPEG)
+# ├── compilations/        # Final video compilations
+# └── presentation_frames/ # Statistical visualization plots
+#
+# All outputs are gitignored to avoid committing large binary files.

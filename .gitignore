@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project-specific: Large output files
+outputs/processed_videos/
+outputs/frames/
+outputs/compilations/
+outputs/presentation_frames/
+outputs/*.json
+outputs/*.pkl
+outputs/*.npy
+
+# Project-specific: Input videos (too large for git)
+inputs/videos/*.mp4
+inputs/videos/*.mov
+inputs/videos/*.avi
+inputs/videos/*.mkv
+inputs/videos/*.webm
+
+# Keep directory structure but ignore contents
+!inputs/videos/.gitkeep
+!outputs/.gitkeep
+
+# Model cache
+.cache/
+models/
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db

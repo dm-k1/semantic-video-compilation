@@ -1,0 +1,79 @@
+category,statement
+boats_maritime,Small boat on open water
+boats_maritime,Overcrowded vessel at sea
+boats_maritime,Rescue operation in progress
+boats_maritime,Life jackets visible on deck
+boats_maritime,Coast guard approaching boat
+boats_maritime,Ship-to-shore disembarkation
+boats_maritime,Aerial view of vessel
+boats_maritime,Rough sea conditions
+boats_maritime,People signaling for rescue
+boats_maritime,Maritime patrol vessels nearby
+schools_education,School gym used for accommodation
+schools_education,Classroom converted to shelter
+schools_education,School cafeteria serving displaced groups
+schools_education,Children using temporary learning space
+schools_education,School library repurposed for shelter
+schools_education,School auditorium with temporary beds
+schools_education,Educational materials in temporary facility
+schools_education,School bus transporting people
+schools_education,Repurposed school hallway with bedding
+schools_education,Check-in or distribution area inside school
+camps_settlements,Organized tent rows
+camps_settlements,Makeshift shelters from plastic sheeting
+camps_settlements,Crowded tent clusters
+camps_settlements,Informal settlement structures
+camps_settlements,Temporary accommodations with basic materials
+camps_settlements,Humanitarian aid distribution point
+camps_settlements,Communal living or shared space
+camps_settlements,Camp sleeping quarters
+camps_settlements,Medical tent or clinic in camp
+camps_settlements,Arrival registration area
+camps_settlements,Children's play area inside camp
+camps_settlements,Camp administrative or NGO office
+border_crossing,Border crossing gate
+border_crossing,Passport or ID checkpoint
+border_crossing,Queue at official crossing
+border_crossing,Border wall or fence
+border_crossing,Patrol presence near boundary
+border_crossing,Vehicle inspection lanes
+border_crossing,Pedestrian crossing corridor
+border_crossing,Surveillance towers or cameras
+transit_transport,People boarding a bus
+transit_transport,Crowded train platform
+transit_transport,Belongings stacked at transit station
+transit_transport,Long-distance buses lined up
+transit_transport,Truck or van used for transport
+transit_transport,People disembarking from vehicle
+transit_transport,Cargo container being opened
+transit_transport,Train in motion with passengers
+transit_transport,Highway vehicle checkpoint
+transit_transport,Night-time bus arrival
+people_composition,Family groups traveling
+people_composition,People carrying children
+people_composition,Individuals moving alone
+people_composition,Large group walking together
+people_composition,People resting or sleeping outdoors
+people_composition,People receiving instructions or guidance
+environmental,Crossing through forest
+environmental,Mountainous border region
+environmental,Desert or arid terrain passage
+environmental,Riverbank gathering point
+environmental,Night travel through rough terrain
+environmental,Harsh weather conditions
+environmental,Muddy or flooded pathway
+environmental,Long-distance walking in rural area
+administrative_process,Interview room in reception center
+administrative_process,Fingerprinting or biometrics station
+administrative_process,Document processing desk
+administrative_process,Waiting area in migration office
+administrative_process,Orientation or briefing session
+administrative_process,Legal aid consultation table
+humanitarian_medical,Volunteers distributing supplies
+humanitarian_medical,Medical staff providing care
+humanitarian_medical,First aid treatment scene
+humanitarian_medical,Vaccination or health check area
+humanitarian_medical,Emergency blankets distribution
+humanitarian_medical,Arrival of aid vehicles
+humanitarian_medical,Water or food pack distribution
+humanitarian_medical,Psychosocial support session

@@ -1,0 +1,16 @@
+# Core dependencies
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+pillow>=10.0.0,<11.0.0
+scikit-learn>=1.3.0,<2.0.0
+
+# Deep learning
+torch>=2.0.0,<3.0.0
+torchvision>=0.15.0,<1.0.0
+
+# CLIP - using OpenAI's official CLIP library
+clip @ git+https://github.com/openai/CLIP.git
+
+# Visualization
+matplotlib>=3.7.0,<4.0.0
+seaborn>=0.12.0,<1.0.0

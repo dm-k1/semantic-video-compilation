@@ -1,0 +1,42 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  quality:
+    name: Code Quality
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Lint with flake8
+      run: |
+        python -m pip install flake8
+        # Only check for critical errors
+        flake8 . --count --select=E9,F63,F7,F82 --show-source
+
+  structure:
+    name: Project Structure
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Verify core files
+      run: |
+        test -f src/core.py || exit 1
+        test -f src/data.py || exit 1
+        test -f notebooks/Demo.ipynb || exit 1
+        test -f requirements.txt || exit 1
+        test -f README.md || exit 1
+        echo "✓ All core files present"
